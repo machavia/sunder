@@ -2,6 +2,10 @@ machine:
   node:
     version: 8.2.0
 
+dependencies:
+  pre:
+    - curl https://sh.rustup.rs -sSf | sh -s -- -y
+
 test:
   override:
     - make test
