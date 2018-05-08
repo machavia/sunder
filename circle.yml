@@ -5,7 +5,7 @@ machine:
 dependencies:
   pre:
     - curl https://sh.rustup.rs -sSf | sh -s -- -y
-    - source /home/node/.cargo/env
+    - source ~/.cargo/env
 
 
 test:
